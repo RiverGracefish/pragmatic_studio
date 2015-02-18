@@ -7,7 +7,7 @@ funding3 = 250
 
 puts "#{project1.capitalize} has $#{funding1} in funding."
 puts "#{project2.center(40)} has $#{funding2} in funding."
-puts "#{project1.ljust(80, '=')} has $#{funding1} in funding."
+puts "#{project1.ljust(80, '=')} has $#{funding3} in funding."
 
 puts "\nProjects:\n\t#{project1}\n\t#{project2}\n\t#{project3}"
 
