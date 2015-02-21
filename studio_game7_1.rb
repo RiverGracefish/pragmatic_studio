@@ -13,6 +13,7 @@ class Player
     @health += 15
     puts "#{@name} got w00ted!"
   end
+
   def to_s
     puts "I'm #{@name} with a health of #{@health}."
   end
